@@ -16,6 +16,7 @@ public final class R {
         public static final int ic_menu_configuration=0x7f020002;
         public static final int ic_menu_rank=0x7f020003;
         public static final int icon=0x7f020004;
+        public static final int jungle2=0x7f020005;
     }
     public static final class id {
         public static final int configure_button=0x7f050000;

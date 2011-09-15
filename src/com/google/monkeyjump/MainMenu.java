@@ -19,7 +19,7 @@ public class MainMenu extends Activity {
                 public void onClick(View v) {
 //                        Intent calArea = new Intent(MainMenu.this, Configure.class);
 //                        startActivity(calArea);
-                	toast("Cliquei em configurações");
+                	toast("Cliquei em configuracoes");
                 	
                 }
         });
