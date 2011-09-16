@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="Settings">
+
+	<PreferenceCategory android:title="Sound Settings">
+		<CheckBoxPreference android:summary="Check to activate the game sounds."
+			android:title="Sounds" android:key="activesounds"
+			android:defaultValue="true"></CheckBoxPreference>
+
+		<CheckBoxPreference android:summary="Check to activate the game music."
+			android:title="Game Music" android:key="activategamemusic"
+			android:defaultValue="true"></CheckBoxPreference>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="Can't go any further?">
+	<CheckBoxPreference android:summary="Click if you want to erase all data and restart the game."
+		android:title="Reset Game" android:key="resetgame"
+		android:defaultValue="false">
+	</CheckBoxPreference>
+		
+	</PreferenceCategory>
+</PreferenceScreen>
+
